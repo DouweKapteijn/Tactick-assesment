@@ -15,11 +15,11 @@ export default {
         if (data.length > 0) {
           this.$router.push(`/vehicle/${this.searchQuery.toUpperCase()}`);
         } else {
-          alert("License plate not found");
+          alert("Geen voertuig gevonden met dit kenteken.");
         }
       } catch (error) {
         console.error("Error fetching data:", error);
-        alert("There was an error fetching data from the API.");
+        alert("Er is een fout opgetreden bij het ophalen van de gegevens");
       }
     },
   },
