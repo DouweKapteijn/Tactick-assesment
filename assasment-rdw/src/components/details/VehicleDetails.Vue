@@ -25,10 +25,10 @@
         {{ vehicleData.tellerstandoordeel }}
       </li>
     </ul>
-    <button @click="$router.push('/')">Back to Search</button>
+    <button @click="$router.push('/')">Terug naar Zoeken</button>
   </div>
   <div v-else class="p-6 bg-white rounded-lg shadow-md">
-    <p>Loading vehicle data...</p>
+    <p>Voertuigdetails laden...</p>
   </div>
 </template>
 
