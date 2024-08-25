@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "./components/home/HomePage.vue";
 import VehicleDetails from "./components/details/VehicleDetails.vue";
+import TenaamStellingen from "./components/tenaamstellingen/TenaamStellingen.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/vehicle/:kenteken",
     name: "VehicleDetails",
     component: VehicleDetails,
+  },
+  {
+    path: "/tenaamstellingen",
+    name: "TenaamStellingen",
+    component: TenaamStellingen,
   },
 ];
 
